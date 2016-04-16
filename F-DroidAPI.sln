@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "F-DroidAPI", "src\F-DroidAPI\F-DroidAPI.xproj", "{271B6F20-021A-4109-9D36-8AD1A1B48025}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "F-DroidAPI.Tests", "src\F-DroidAPI.Tests\F-DroidAPI.Tests.xproj", "{3664F926-6ED4-4987-B8A4-72C3129C179D}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "F-DroidAPI.Tests", "test\F-DroidAPI.Tests\F-DroidAPI.Tests.xproj", "{3664F926-6ED4-4987-B8A4-72C3129C179D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

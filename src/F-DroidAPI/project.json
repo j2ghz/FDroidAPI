@@ -1,13 +1,25 @@
 {
   "version": "0.0.1-*",
-
+  "description": "",
+  "authors": [
+    ""
+  ],
+  "tags": [
+    ""
+  ],
+  "projectUrl": "",
+  "licenseUrl": "",
   "dependencies": {
-    "NETStandard.Library": "1.0.0-rc2-23811",
+    "Microsoft.CSharp": "4.0.0",
+    "System.Net.Http": "4.0.0",
     "System.Xml.XmlSerializer": "4.0.10",
-    "System.Net.Http": "4.0.0" 
+    "System.Diagnostics.Tools": "4.0.0",
+    "System.Runtime": "4.0.20"
   },
-
   "frameworks": {
-    "dnxcore50": { }
-  }
+    ".NETPlatform5.0": {},
+    ".NETCore5.0": {},
+    "DNXCore5.0": {}
+  },
+  "supports": {}
 }

@@ -1,14 +1,14 @@
 {
-  "version": "0.0.1-*",
-  "description": "",
+  "version": "0.1.0-*",
+  "description": "FDroidAPI Parser for .NET",
   "authors": [
-    ""
+    "J2ghz"
   ],
   "tags": [
-    ""
+    "F-Droid"
   ],
-  "projectUrl": "",
-  "licenseUrl": "",
+  "projectUrl": "https://github.com/j2ghz/FDroidAPI",
+  "licenseUrl": "https://github.com/j2ghz/FDroidAPI/blob/master/LICENSE.md",
   "dependencies": {
     "Microsoft.CSharp": "4.0.0",
     "System.Net.Http": "4.0.0",

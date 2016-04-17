@@ -1,8 +1,7 @@
 ﻿namespace FDroidAPI.Test
 {
-    using System.Threading.Tasks;
 
-    using FDroid;
+    using FDroidAPI;
 
     using Xunit;
 

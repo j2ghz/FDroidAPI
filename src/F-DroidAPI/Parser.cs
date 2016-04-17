@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FDroid
+namespace FDroidAPI
 {
     using System.IO;
     using System.Threading.Tasks;

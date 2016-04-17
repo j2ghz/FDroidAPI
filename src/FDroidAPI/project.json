@@ -1,25 +1,25 @@
 {
-  "version": "0.1.0-*",
-  "description": "FDroidAPI Parser for .NET",
   "authors": [
     "J2ghz"
   ],
+  "dependencies": {
+    "Microsoft.CSharp": "4.0.0",
+    "System.Diagnostics.Tools": "4.0.0",
+    "System.Net.Http": "4.0.0",
+    "System.Runtime": "4.0.20",
+    "System.Xml.XmlSerializer": "4.0.10"
+  },
+  "description": "FDroidAPI Parser for .NET",
+  "frameworks": {
+    ".NETCore5.0": { },
+    ".NETPlatform5.0": { },
+    "DNXCore5.0": { }
+  },
+  "licenseUrl": "https://github.com/j2ghz/FDroidAPI/blob/master/LICENSE.md",
+  "projectUrl": "https://github.com/j2ghz/FDroidAPI",
+  "supports": { },
   "tags": [
     "F-Droid"
   ],
-  "projectUrl": "https://github.com/j2ghz/FDroidAPI",
-  "licenseUrl": "https://github.com/j2ghz/FDroidAPI/blob/master/LICENSE.md",
-  "dependencies": {
-    "Microsoft.CSharp": "4.0.0",
-    "System.Net.Http": "4.0.0",
-    "System.Xml.XmlSerializer": "4.0.10",
-    "System.Diagnostics.Tools": "4.0.0",
-    "System.Runtime": "4.0.20"
-  },
-  "frameworks": {
-    ".NETPlatform5.0": {},
-    ".NETCore5.0": {},
-    "DNXCore5.0": {}
-  },
-  "supports": {}
+  "version": "0.1.0-*"
 }

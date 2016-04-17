@@ -21,7 +21,7 @@ namespace FDroidAPI
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [XmlType(AnonymousType = true)]
-    [XmlRoot(Namespace = "", IsNullable = false)]
+    [XmlRoot("fdroid", IsNullable = false)]
     public partial class Repo
     {
 

@@ -8,11 +8,26 @@
 
     public class UnitTests
     {
+        private readonly Repo repo = Parser.GetRepo().Result;
+
         [Fact]
-        public async Task GetRepo()
+        public void GetRepo()
         {
-            var repo = await Parser.GetRepo();
-            Assert.NotNull(repo);
+            Assert.NotNull(this.repo);
+        }
+
+        [Fact]
+        public void RepoContainsRepoInfo()
+        {
+            Assert.NotNull(this.repo.repo);
+            Assert.NotEqual("", this.repo.repo.name);
+        }
+
+        [Fact]
+        public void  RepoContainsAppsWithIds()
+        {
+            Assert.NotEmpty(this.repo.applications);
+            Assert.All(this.repo.applications,app => Assert.NotEqual("",app.id));
         }
     }
 }

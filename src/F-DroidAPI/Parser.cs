@@ -15,7 +15,9 @@ namespace FDroid
         public static async Task<Repo> GetRepo(string url)
         {
             var xml = new XmlSerializer(typeof(Repo));
-            return (Repo)xml.Deserialize(await GetRepoStream(url));
+            var stream = await GetRepoStream(url);
+            var repo = xml.Deserialize(stream);
+            return (Repo)repo;
         }
 
         public static async Task<Repo> GetRepo()

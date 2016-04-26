@@ -12,8 +12,7 @@
   },
   "description": "Tests for F-Droid API Parser",
   "frameworks": {
-    ".NETCore5.0": { },
-    ".NETPlatform5.0": { },
+    ".NETPlatform,Version=5.1": { },
     "DNXCore5.0": {
       "dependencies": {
         "xunit.runner.dnx": "2.1.0-rc1-build204"

@@ -11,9 +11,7 @@
   },
   "description": "FDroidAPI Parser for .NET",
   "frameworks": {
-    ".NETCore5.0": { },
-    ".NETPlatform5.0": { },
-    "DNXCore5.0": { }
+    ".NETPlatform,Version=5.1": { }
   },
   "licenseUrl": "https://github.com/j2ghz/FDroidAPI/blob/master/LICENSE.md",
   "projectUrl": "https://github.com/j2ghz/FDroidAPI",
